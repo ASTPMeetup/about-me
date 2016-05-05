@@ -4,21 +4,26 @@
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
-  <body>
-    <img src="<%= selfie %>" alt="" class="selfie">
-    <p><%= greeting %></p>
-    <br>
-    <p>My skills are:</p>
+<body>
+  <div class="main">
+    <img src="<%= self %>" alt="" class="self">
+    <div class="header">
+      <h2><%= greeting %></h2>
+    </div>
+  </div>
+  <div class="info">
+    <h4>My skills are:</h4>
     <ul>
       <% for (skill in skills){ %>
         <li><%= skills[skill] %></li>
       <% } %>
     </ul>
-    <p>My hobbies are:</p>
+    <h4>My hobbies are:</h4>
     <ul>
       <% for (hobby in hobbies){ %>
         <li><%= hobbies[hobby] %></li>
       <% } %>
     </ul>
+  </div>
   </body>
 </html>
