@@ -24,3 +24,9 @@ a {
   width: 800px;
   height: 151px;
 }
+ hr {
+   margin-left: 20px;
+   width: 400px;
+   float: left;
+   opacity: 0.2;
+ }
