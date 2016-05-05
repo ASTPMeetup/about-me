@@ -1,0 +1,14 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.selfie {
+  width: 60px;
+  border: 1px #ccc solid;
+  border-radius: 100%;
+}

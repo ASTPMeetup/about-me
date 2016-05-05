@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <img src="<%= selfie %>" alt="" class="selfie">
+    <p><%= greeting %></p>
+    <br>
+    <p>My skills are:</p>
+    <ul>
+      <% for (skill in skills){ %>
+        <li><%= skills[skill] %></li>
+      <% } %>
+    </ul>
+    <p>My hobbies are:</p>
+    <ul>
+      <% for (hobby in hobbies){ %>
+        <li><%= hobbies[hobby] %></li>
+      <% } %>
+    </ul>
+  </body>
+</html>
